@@ -9,7 +9,7 @@ class Task {
         this.privateTask = privateTask
         if (project) this.project = project
         if (deadline) this.deadline = deadline
-        this.deadline = completed || false
+        this.completed = completed || false
     }
 
 }
